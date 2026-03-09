@@ -1,0 +1,149 @@
+/*= Style for mainwindow START
+  ==================================================== */
+	#MainWindow {
+		background-color:rgb(211, 221, 226);
+	}
+/*= END
+  ==================================================== */
+
+/*= Style for button to change menu style START
+  ==================================================== */
+	#menu_change_button {
+		padding: 5px;
+		border: none;
+		width: 30px;
+		height: 30px;
+	}
+/*= END
+  ==================================================== */
+
+/*= Style for menu with icon only START
+  ==================================================== */
+  	/* style for widget */
+	#icon_only_widget {
+		background-color:rgb(62, 78, 99);
+		width:50px;
+	}
+
+    /* style for QPushButton and QLabel */
+	#icon_only_widget QPushButton, QLabel {
+		height:50px;
+		border:none;
+		/* border-bottom: 1px solid rgb(238, 234, 234); */
+	}
+
+	#icon_only_widget QPushButton:hover {
+		background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	/* Checked state - Logo turns white */
+	#timer_button:checked,
+	#Chip_button:checked,
+	#acquisition_button:checked,
+	#printer_button:checked,
+	#exit_button:checked,
+	#calibration_button:checked,
+	#settings_button:checked {
+    	color: white;
+	}
+
+/*= END
+  ==================================================== */
+
+/*= Style for menu with icon and text START
+  ==================================================== */
+	/* style for widget */
+	#fulle_menu_widget {
+		background-color: rgb(62, 78, 99);
+	}
+
+	/* style for QPushButton */
+	#fulle_menu_widget QPushButton {
+		border:none;
+		border-radius: 3px;
+		text-align: left;
+		padding: 8px 0 8px 15px;
+		color:rgb(110, 123, 138);
+	}
+
+	#fulle_menu_widget QPushButton:hover {
+		background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#fulle_menu_widget QPushButton:checked {
+		color: #fff;
+	}
+
+/*= END
+  ==================================================== */
+
+/*= Style for menu with icon and text START
+	==================================================== */
+#button_32x, 
+#button_32T, 
+#button_96puits, 
+#a_venir1, 
+#a_venir2, 
+#a_venir3 {
+    background-color: rgb(211, 221, 226); /* Same as MainWindow */
+    border: none;
+}
+
+/*= Hover Effect - Darker Gray */
+#button_32x:hover, 
+#button_32T:hover, 
+#button_96puits:hover, 
+#a_venir1:hover, 
+#a_venir2:hover, 
+#a_venir3:hover {
+    background-color: rgb(180, 190, 195); /* Slightly darker */
+}
+
+/*= Clicked (Checked) State */
+#button_32x:checked, 
+#button_32T:checked, 
+#button_96puits:checked, 
+#a_venir1:checked, 
+#a_venir2:checked, 
+#a_venir3:checked {
+    background-color: rgb(150, 160, 165); /* Even darker for feedback */
+    color: black; /* Make text visible when clicked */
+}
+
+/*= END
+  ==================================================== */
+
+/*= Style printer control buttons
+	==================================================== */
+/*= Printer Control Page Buttons - Background matches MainWindow, Icon stays visible */
+#minus_one_x, #minus_ten_x, #minus_pointone_x, 
+#plus_one_x, #plus_ten_x, #plus_pointone_x,
+#minus_one_y, #minus_ten_y, #minus_pointone_y, 
+#plus_one_y, #plus_ten_y, #plus_pointone_y,
+#minus_one_z, #minus_ten_z, #minus_pointone_z, 
+#plus_one_z, #plus_ten_z, #plus_pointone_z, #damier, #eye_user {
+    background-color: rgb(211, 221, 226); /* Same as MainWindow */
+    border: none;
+}
+
+/*= Hover Effect - Darker Gray, Icon remains */
+#minus_one_x:hover, #minus_ten_x:hover, #minus_pointone_x:hover, 
+#plus_one_x:hover, #plus_ten_x:hover, #plus_pointone_x:hover,
+#minus_one_y:hover, #minus_ten_y:hover, #minus_pointone_y:hover, 
+#plus_one_y:hover, #plus_ten_y:hover, #plus_pointone_y:hover,
+#minus_one_z:hover, #minus_ten_z:hover, #minus_pointone_z:hover, 
+#plus_one_z:hover, #plus_ten_z:hover, #plus_pointone_z:hover {
+    background-color: rgb(180, 190, 195); /* Slightly darker */
+}
+
+/*= Click Effect - Darker Momentarily */
+#minus_one_x:pressed, #minus_ten_x:pressed, #minus_pointone_x:pressed, 
+#plus_one_x:pressed, #plus_ten_x:pressed, #plus_pointone_x:pressed,
+#minus_one_y:pressed, #minus_ten_y:pressed, #minus_pointone_y:pressed, 
+#plus_one_y:pressed, #plus_ten_y:pressed, #plus_pointone_y:pressed,
+#minus_one_z:pressed, #minus_ten_z:pressed, #minus_pointone_z:pressed, 
+#plus_one_z:pressed, #plus_ten_z:pressed, #plus_pointone_z:pressed {
+    background-color: rgb(150, 160, 165); /* Even darker while clicked */
+}
+/*= END
+  ==================================================== */

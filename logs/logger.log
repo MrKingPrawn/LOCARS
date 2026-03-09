@@ -1,0 +1,4 @@
+2025-03-18 12:09:04,247 - INFO(laser_widget.py:__init__)(laser_widget.py:296) - Widget initialization
+2025-03-18 12:09:04,248 - DEBUG(highlevel.py:__new__)(highlevel.py:2996) - Reusing ResourceManager with session 8063768
+2025-03-18 12:09:04,248 - INFO(laser_widget.py:__init__)(laser_widget.py:304) - Widget launch is done
+2025-03-18 12:11:32,225 - DEBUG(highlevel.py:close)(highlevel.py:3078) - Closing ResourceManager (session: 8063768)

@@ -1,0 +1,27 @@
+<RCC>
+  <qresource prefix="Icons">
+    <file>icons/ICON/eye.png</file>
+    <file>icons/ICON/home.png</file>
+    <file>icons/ICON/arrow.png</file>
+    <file>icons/ICON/exit.png</file>
+    <file>icons/ICON/menu.png</file>
+    <file>icons/ICON/play.png</file>
+    <file>icons/ICON/printer.png</file>
+    <file>icons/ICON/puce.png</file>
+    <file>icons/ICON/reglage.png</file>
+    <file>icons/ICON/target.png</file>
+    <file>icons/ICON/timer.png</file>
+  </qresource>
+  <qresource prefix="printer">
+    <file>icons/printers/down.png</file>
+    <file>icons/printers/left.png</file>
+    <file>icons/printers/right.png</file>
+    <file>icons/printers/up.png</file>
+    <file>icons/printers/damier.jpg</file>
+  </qresource>
+  <qresource prefix="chips">
+    <file>icons/CHIPS/bon96.png</file>
+    <file>icons/CHIPS/32X.png</file>
+    <file>icons/CHIPS/32T.png</file>
+  </qresource>
+</RCC>
